@@ -3,5 +3,12 @@ zakupy = {
      "piekarnia": ["chleb", "bułki", "pączek"],
      "warzywniak": ["marchew", "seler", "rukola"]
  }
+total_products = 0
+
 for shop, products in zakupy.items():
-    print(f"Idę do {shop} i kupuję tam {', '.join(products)}.")
+    shop_cap = shop.capitalize()
+    products_cap = [product.capitalize() for product in products]
+    print(f"Idę do {shop_cap} i kupuję tam {', '.join(products_cap)}.")
+    total_products += len(products)
+
+print(f"\nW sumie kupuję {total_products} produktów.")
