@@ -1,7 +1,8 @@
 # Program: lista zakupów
 zakupy = {
      "piekarnia": ["chleb", "bułki", "pączek", "zapiekanka"],
-     "warzywniak": ["marchew", "seler", "rukola","pomidor", "ziemniak"]
+     "warzywniak": ["marchew", "seler", "rukola","pomidor", "ziemniak"],
+     "kosmetyczny": ["szampon", "żel"]
  }
 total_products = 0
 
