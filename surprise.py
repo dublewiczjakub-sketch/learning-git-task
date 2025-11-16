@@ -1,1 +1,0 @@
-# Pozdrawiam swojego mentora Patryk Tokarza :)
